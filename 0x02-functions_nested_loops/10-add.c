@@ -4,7 +4,7 @@
 /**
  * add - Entry point
  * a function that adds two integers and returns the result
- * @c: sum of i and j
+ * @k: sum of i and j
  * @i: integer datatype
  * @j: integer datatype
  *
