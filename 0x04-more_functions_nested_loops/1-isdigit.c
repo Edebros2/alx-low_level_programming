@@ -3,7 +3,6 @@
 #include <stdlib.h>
 
 /**
- * main - Entry point
  * _isdigit - function
  * @c: character to check
  * a function that checks for a digit 0 through 9
@@ -13,7 +12,7 @@
 
 int _isdigit(int c)
 {
-	if (c >= 0 && c <= 9)
+	if (c >= '0' && c <= '9')
 	{
 		return (1);
 	}
@@ -21,13 +20,4 @@ int _isdigit(int c)
 	{
 		return (0);
 	}
-}
-
-int main(void)
-{
-	char c;
-
-	c = '0';
-	printf("%c, %d", c, _isdigit(c));
-	return (0);
 }
